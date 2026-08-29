@@ -9,18 +9,18 @@ h5,
 h6,
 p,
 a {
-	margin: 0;
-	padding: 0;
-	font-family: sans-serif;
-	line-height: 1.6;
-	color: #586e75;
-	text-align: left;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  line-height: 1.6;
+  color: #586e75;
+  text-align: left;
 }
 
 body {
-	margin: 0;
-	padding: 1rem;
-	background-color: #fdf6e3;
+  margin: 0;
+  padding: 1rem;
+  background-color: #fdf6e3;
 }
 
 h1,
@@ -29,232 +29,232 @@ h3,
 h4,
 h5,
 h6 {
-	font-weight: bold;
-	margin-bottom: 0.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
 }
 
 h1 {
-	font-size: 2rem;
+  font-size: 2rem;
 }
 
 h2 {
-	font-size: 1.75rem;
+  font-size: 1.75rem;
 }
 
 h3 {
-	font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 h4 {
-	font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
 h5 {
-	font-size: 1rem;
+  font-size: 1rem;
 }
 
 h6 {
-	font-size: 0.875rem;
+  font-size: 0.875rem;
 }
 
 p {
-	margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 a {
-	color: #268bd2;
-	text-decoration: none;
+  color: #268bd2;
+  text-decoration: none;
 }
 
 a:visited {
-	color: #6c71c4;
+  color: #6c71c4;
 }
 
 a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
-	body {
-		padding: 0.5rem;
-	}
+  body {
+    padding: 0.5rem;
+  }
 
-	h1 {
-		font-size: 1.75rem;
-	}
+  h1 {
+    font-size: 1.75rem;
+  }
 
-	h2 {
-		font-size: 1.5rem;
-	}
+  h2 {
+    font-size: 1.5rem;
+  }
 
-	h3 {
-		font-size: 1.25rem;
-	}
+  h3 {
+    font-size: 1.25rem;
+  }
 
-	h4 {
-		font-size: 1rem;
-	}
+  h4 {
+    font-size: 1rem;
+  }
 
-	h5 {
-		font-size: 0.875rem;
-	}
+  h5 {
+    font-size: 0.875rem;
+  }
 
-	h6 {
-		font-size: 0.75rem;
-	}
+  h6 {
+    font-size: 0.75rem;
+  }
 }
 
 hr {
-	border-top: 1px solid #586e75;
+  border-top: 1px solid #586e75;
 }
 .snowflake {
-	color: #fff;
-	font-size: 1em;
-	font-family: Arial, sans-serif;
-	text-shadow: 0 0 5px #000;
+  color: #fff;
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+  text-shadow: 0 0 5px #000;
 }
 
 @keyframes snowflakes-fall {
-	0% {
-		transform: translateY(0vh);
-	}
+  0% {
+    transform: translateY(0vh);
+  }
 
-	100% {
-		transform: translateY(110vh);
-	}
+  100% {
+    transform: translateY(110vh);
+  }
 }
 
 @keyframes snowflakes-shake {
-	0% {
-		transform: translateX(0px);
-	}
+  0% {
+    transform: translateX(0px);
+  }
 
-	50% {
-		transform: translateX(80px);
-	}
+  50% {
+    transform: translateX(80px);
+  }
 
-	100% {
-		transform: translateX(0px);
-	}
+  100% {
+    transform: translateX(0px);
+  }
 }
 
 .snowflake {
-	position: fixed;
-	top: -10%;
-	z-index: 9999;
-	/* still needed for Safari */
-	-webkit-user-select: none;
-	user-select: none;
-	cursor: default;
-	pointer-events: none;
+  position: fixed;
+  top: -10%;
+  z-index: 9999;
+  /* still needed for Safari */
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: default;
+  pointer-events: none;
 
-	animation-name: snowflakes-shake;
-	animation-duration: 3s;
-	animation-timing-function: ease-in-out;
-	animation-iteration-count: infinite;
-	animation-play-state: running;
+  animation-name: snowflakes-shake;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
 }
 
 .snowflake .inner {
-	animation-duration: 10s;
-	animation-iteration-count: infinite;
-	animation-name: snowflakes-fall;
-	animation-play-state: running;
-	animation-timing-function: linear;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-name: snowflakes-fall;
+  animation-play-state: running;
+  animation-timing-function: linear;
 }
 
 .snowflake:nth-of-type(0) {
-	left: 1%;
-	animation-delay: 0s;
+  left: 1%;
+  animation-delay: 0s;
 }
 .snowflake:nth-of-type(0) .inner {
-	animation-delay: 0s;
+  animation-delay: 0s;
 }
 
 .snowflake:nth-of-type(1) {
-	left: 10%;
-	animation-delay: 1s;
+  left: 10%;
+  animation-delay: 1s;
 }
 .snowflake:nth-of-type(1) .inner {
-	animation-delay: 1s;
+  animation-delay: 1s;
 }
 
 .snowflake:nth-of-type(2) {
-	left: 20%;
-	animation-delay: 0.5s;
+  left: 20%;
+  animation-delay: 0.5s;
 }
 .snowflake:nth-of-type(2) .inner {
-	animation-delay: 6s;
+  animation-delay: 6s;
 }
 
 .snowflake:nth-of-type(3) {
-	left: 30%;
-	animation-delay: 2s;
+  left: 30%;
+  animation-delay: 2s;
 }
 .snowflake:nth-of-type(3) .inner {
-	animation-delay: 4s;
+  animation-delay: 4s;
 }
 
 .snowflake:nth-of-type(4) {
-	left: 40%;
-	animation-delay: 2s;
+  left: 40%;
+  animation-delay: 2s;
 }
 .snowflake:nth-of-type(4) .inner {
-	animation-delay: 2s;
+  animation-delay: 2s;
 }
 
 .snowflake:nth-of-type(5) {
-	left: 50%;
-	animation-delay: 3s;
+  left: 50%;
+  animation-delay: 3s;
 }
 .snowflake:nth-of-type(5) .inner {
-	animation-delay: 8s;
+  animation-delay: 8s;
 }
 
 .snowflake:nth-of-type(6) {
-	left: 60%;
-	animation-delay: 2s;
+  left: 60%;
+  animation-delay: 2s;
 }
 .snowflake:nth-of-type(6) .inner {
-	animation-delay: 6s;
+  animation-delay: 6s;
 }
 
 .snowflake:nth-of-type(7) {
-	left: 70%;
-	animation-delay: 1s;
+  left: 70%;
+  animation-delay: 1s;
 }
 .snowflake:nth-of-type(7) .inner {
-	animation-delay: 2.5s;
+  animation-delay: 2.5s;
 }
 
 .snowflake:nth-of-type(8) {
-	left: 80%;
-	animation-delay: 0s;
+  left: 80%;
+  animation-delay: 0s;
 }
 .snowflake:nth-of-type(8) .inner {
-	animation-delay: 1s;
+  animation-delay: 1s;
 }
 
 .snowflake:nth-of-type(9) {
-	left: 90%;
-	animation-delay: 1.5s;
+  left: 90%;
+  animation-delay: 1.5s;
 }
 .snowflake:nth-of-type(9) .inner {
-	animation-delay: 3s;
+  animation-delay: 3s;
 }
 
 .snowflake:nth-of-type(10) {
-	left: 25%;
-	animation-delay: 0s;
+  left: 25%;
+  animation-delay: 0s;
 }
 .snowflake:nth-of-type(10) .inner {
-	animation-delay: 2s;
+  animation-delay: 2s;
 }
 
 .snowflake:nth-of-type(11) {
-	left: 65%;
-	animation-delay: 2.5s;
+  left: 65%;
+  animation-delay: 2.5s;
 }
 .snowflake:nth-of-type(11) .inner {
-	animation-delay: 4s;
+  animation-delay: 4s;
 }
